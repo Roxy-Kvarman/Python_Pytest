@@ -1,0 +1,336 @@
+2021-02-13 15:04:23 - INFO - Test 'test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' STARTED
+2021-02-13 15:04:28 - INFO - Navigate to Main page
+2021-02-13 15:04:38 - INFO - Open Tie Bars Page
+2021-02-13 15:04:48 - INFO - Tie Bars price sum is: 252
+2021-02-13 15:04:48 - INFO - *******Completed successfully*******
+2021-02-13 15:04:51 - INFO - Test 'test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' COMPLETED
+2021-02-13 15:18:40 - INFO - Test 'test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' STARTED
+2021-02-13 15:18:42 - INFO - Navigate to Main page
+2021-02-13 15:18:50 - INFO - Open Retro Page
+2021-02-13 15:19:00 - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\conftest.py", line 35, in pytest_runtest_call
+    __multicall__.execute()
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\callers.py", line 135, in execute
+    res = hook_impl.function(*args)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\_pytest\runner.py", line 170, in pytest_runtest_call
+    raise e
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\_pytest\runner.py", line 162, in pytest_runtest_call
+    item.runtest()
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\_pytest\python.py", line 1641, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\callers.py", line 208, in _multicall
+    return outcome.get_result()
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\callers.py", line 80, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\_pytest\python.py", line 183, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\test_RetroProductsSizeSumAndCompare.py", line 14, in test_retro_products_size_sum_compare
+    retro_page = home_page.open_retro_page()
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Pages\HomePage.py", line 25, in open_retro_page
+    pattern_btn = self.driver.find_element(By.XPATH, "//a[text()='Patter']")
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Patter']"}
+  (Session info: chrome=88.0.4324.150)
+
+2021-02-13 15:19:03 - INFO - Test 'test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' COMPLETED
+2021-02-13 15:19:54 - INFO - Test 'test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' STARTED
+2021-02-13 15:19:58 - INFO - Navigate to Main page
+2021-02-13 15:20:06 - INFO - Open Product Page
+2021-02-13 15:20:15 - INFO - Product: Black Poplin Skinny Tie - description: This is a two and a half inch black poplin cotton/polyester blend skinny tie
+2021-02-13 15:20:15 - INFO - Product: Black Poplin Skinny Tie - price: 20
+2021-02-13 15:20:15 - INFO - *******Completed successfully*******
+2021-02-13 15:20:16 - INFO - Test 'test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' COMPLETED
+2021-02-13 15:42:19 - INFO - Test 'Tests/test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' STARTED
+2021-02-13 15:42:22 - INFO - Navigate to Main page
+2021-02-13 15:42:26 - INFO - Open Product Page
+2021-02-13 15:42:36 - INFO - Product: Black Poplin Skinny Tie - description: This is a two and a half inch black poplin cotton/polyester blend skinny tie
+2021-02-13 15:42:36 - INFO - Product: Black Poplin Skinny Tie - price: 20
+2021-02-13 15:42:36 - INFO - *******Completed successfully*******
+2021-02-13 15:42:37 - INFO - Test 'Tests/test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' COMPLETED
+2021-02-13 15:42:38 - INFO - Test 'Tests/test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' STARTED
+2021-02-13 15:42:40 - INFO - Navigate to Main page
+2021-02-13 15:42:47 - INFO - Open Retro Page
+2021-02-13 15:42:57 - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\conftest.py", line 35, in pytest_runtest_call
+    __multicall__.execute()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 135, in execute
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 170, in pytest_runtest_call
+    raise e
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 162, in pytest_runtest_call
+    item.runtest()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 1641, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 208, in _multicall
+    return outcome.get_result()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 80, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 183, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\test_RetroProductsSizeSumAndCompare.py", line 14, in test_retro_products_size_sum_compare
+    retro_page = home_page.open_retro_page()
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Pages\HomePage.py", line 25, in open_retro_page
+    pattern_btn = self.driver.find_element(By.XPATH, "//a[text()='Patter']")
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Patter']"}
+  (Session info: chrome=88.0.4324.150)
+
+2021-02-13 15:42:59 - INFO - Test 'Tests/test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' COMPLETED
+2021-02-13 15:42:59 - INFO - Test 'Tests/test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' STARTED
+2021-02-13 15:43:03 - INFO - Navigate to Main page
+2021-02-13 15:43:10 - INFO - Open Tie Bars Page
+2021-02-13 15:43:18 - INFO - Tie Bars price sum is: 252
+2021-02-13 15:43:18 - INFO - *******Completed successfully*******
+2021-02-13 15:43:19 - INFO - Test 'Tests/test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' COMPLETED
+2021-02-13 15:46:02 - INFO - Test 'Tests/test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' STARTED
+2021-02-13 15:46:05 - INFO - Navigate to Main page
+2021-02-13 15:46:11 - INFO - Open Product Page
+2021-02-13 15:46:19 - INFO - Product: Black Poplin Skinny Tie - description: This is a two and a half inch black poplin cotton/polyester blend skinny tie
+2021-02-13 15:46:19 - INFO - Product: Black Poplin Skinny Tie - price: 20
+2021-02-13 15:46:19 - INFO - *******Completed successfully*******
+2021-02-13 15:46:20 - INFO - Test 'Tests/test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' COMPLETED
+2021-02-13 15:46:20 - INFO - Test 'Tests/test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' STARTED
+2021-02-13 15:46:24 - INFO - Navigate to Main page
+2021-02-13 15:46:30 - INFO - Open Retro Page
+2021-02-13 15:46:40 - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\conftest.py", line 35, in pytest_runtest_call
+    __multicall__.execute()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 135, in execute
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 170, in pytest_runtest_call
+    raise e
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 162, in pytest_runtest_call
+    item.runtest()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 1641, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 208, in _multicall
+    return outcome.get_result()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 80, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 183, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\test_RetroProductsSizeSumAndCompare.py", line 14, in test_retro_products_size_sum_compare
+    retro_page = home_page.open_retro_page()
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Pages\HomePage.py", line 25, in open_retro_page
+    pattern_btn = self.driver.find_element(By.XPATH, "//a[text()='Patter']")
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Patter']"}
+  (Session info: chrome=88.0.4324.150)
+
+2021-02-13 15:46:42 - INFO - Test 'Tests/test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' COMPLETED
+2021-02-13 15:46:42 - INFO - Test 'Tests/test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' STARTED
+2021-02-13 15:46:45 - INFO - Navigate to Main page
+2021-02-13 15:46:50 - INFO - Open Tie Bars Page
+2021-02-13 15:46:59 - INFO - Tie Bars price sum is: 252
+2021-02-13 15:46:59 - INFO - *******Completed successfully*******
+2021-02-13 15:47:01 - INFO - Test 'Tests/test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' COMPLETED
+2021-02-13 15:51:03 - INFO - Test 'test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' STARTED
+2021-02-13 15:51:06 - INFO - Navigate to Main page
+2021-02-13 15:51:14 - INFO - Open Tie Bars Page
+2021-02-13 15:51:22 - INFO - Tie Bars price sum is: 252
+2021-02-13 15:51:22 - ERROR - Tie Bars price sum should be higher than: 20, actual price sum is: 252
+2021-02-13 15:51:22 - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\conftest.py", line 35, in pytest_runtest_call
+    __multicall__.execute()
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\callers.py", line 135, in execute
+    res = hook_impl.function(*args)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\_pytest\runner.py", line 170, in pytest_runtest_call
+    raise e
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\_pytest\runner.py", line 162, in pytest_runtest_call
+    item.runtest()
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\_pytest\python.py", line 1641, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\callers.py", line 208, in _multicall
+    return outcome.get_result()
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\callers.py", line 80, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\venv\lib\site-packages\_pytest\python.py", line 183, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\test_TieBarsPriceSumAndCompare.py", line 21, in test_tie_bars_price_size_sum_compare
+    H.assert_test(sum_price < self.price_to_compare,
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Utilities\Helper.py", line 6, in assert_test
+    assert condition, L.logging.error(fail_str)
+AssertionError: None
+2021-02-13 15:51:25 - INFO - Test 'test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' COMPLETED
+2021-02-13 15:53:23 - INFO - Test 'Tests/test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' STARTED
+2021-02-13 15:53:29 - INFO - Navigate to Main page
+2021-02-13 15:53:35 - INFO - Open Product Page
+2021-02-13 15:53:45 - INFO - Product: Black Poplin Skinny Tie - description: This is a two and a half inch black poplin cotton/polyester blend skinny tie
+2021-02-13 15:53:45 - INFO - Product: Black Poplin Skinny Tie - price: 20
+2021-02-13 15:53:45 - INFO - *******Completed successfully*******
+2021-02-13 15:53:46 - INFO - Test 'Tests/test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' COMPLETED
+2021-02-13 15:53:46 - INFO - Test 'Tests/test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' STARTED
+2021-02-13 15:53:50 - INFO - Navigate to Main page
+2021-02-13 15:53:56 - INFO - Open Retro Page
+2021-02-13 15:54:04 - INFO - Retro page products sum size: 5.0
+2021-02-13 15:54:04 - ERROR - Retro products size sum should be larger than: 4, actual size sum is: 5.0
+2021-02-13 15:54:04 - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\conftest.py", line 35, in pytest_runtest_call
+    __multicall__.execute()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 135, in execute
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 170, in pytest_runtest_call
+    raise e
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 162, in pytest_runtest_call
+    item.runtest()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 1641, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 208, in _multicall
+    return outcome.get_result()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 80, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 183, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\test_RetroProductsSizeSumAndCompare.py", line 21, in test_retro_products_size_sum_compare
+    H.assert_test(sum_size < self.size_to_compare, f'Retro products size sum should be larger than: {self.size_to_compare}, '
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Utilities\Helper.py", line 6, in assert_test
+    assert condition, L.logging.error(fail_str)
+AssertionError: None
+2021-02-13 15:54:06 - INFO - Test 'Tests/test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' COMPLETED
+2021-02-13 15:54:06 - INFO - Test 'Tests/test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' STARTED
+2021-02-13 15:54:09 - INFO - Navigate to Main page
+2021-02-13 15:54:17 - INFO - Open Tie Bars Page
+2021-02-13 15:54:25 - INFO - Tie Bars price sum is: 252
+2021-02-13 15:54:25 - ERROR - Tie Bars price sum should be higher than: 20, actual price sum is: 252
+2021-02-13 15:54:25 - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\conftest.py", line 35, in pytest_runtest_call
+    __multicall__.execute()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 135, in execute
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 170, in pytest_runtest_call
+    raise e
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 162, in pytest_runtest_call
+    item.runtest()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 1641, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 208, in _multicall
+    return outcome.get_result()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 80, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 183, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\test_TieBarsPriceSumAndCompare.py", line 21, in test_tie_bars_price_size_sum_compare
+    H.assert_test(sum_price < self.price_to_compare,
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Utilities\Helper.py", line 6, in assert_test
+    assert condition, L.logging.error(fail_str)
+AssertionError: None
+2021-02-13 15:54:26 - INFO - Test 'Tests/test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' COMPLETED
+2021-02-13 15:58:08 - INFO - Test 'Tests/test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' STARTED
+2021-02-13 15:58:11 - INFO - Navigate to Main page
+2021-02-13 15:58:17 - INFO - Open Product Page
+2021-02-13 15:58:26 - INFO - Product: Black Poplin Skinny Tie - description: This is a two and a half inch black poplin cotton/polyester blend skinny tie
+2021-02-13 15:58:26 - INFO - Product: Black Poplin Skinny Tie - price: 20
+2021-02-13 15:58:26 - INFO - *******Completed successfully*******
+2021-02-13 15:58:27 - INFO - Test 'Tests/test_ProductDescriptionAndPrice.py::Test_ProductDescriptionAndPrice' COMPLETED
+2021-02-13 15:58:27 - INFO - Test 'Tests/test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' STARTED
+2021-02-13 15:58:31 - INFO - Navigate to Main page
+2021-02-13 15:58:36 - INFO - Open Retro Page
+2021-02-13 15:58:44 - INFO - Retro page products sum size: 5.0
+2021-02-13 15:58:44 - INFO - *******Completed successfully*******
+2021-02-13 15:58:45 - INFO - Test 'Tests/test_RetroProductsSizeSumAndCompare.py::Test_RetroProductsSizeSumAndCompare' COMPLETED
+2021-02-13 15:58:45 - INFO - Test 'Tests/test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' STARTED
+2021-02-13 15:58:48 - INFO - Navigate to Main page
+2021-02-13 15:58:55 - INFO - Open Tie Bars Page
+2021-02-13 15:59:04 - INFO - Tie Bars price sum is: 252
+2021-02-13 15:59:04 - ERROR - Tie Bars price sum should be higher than: 20, actual price sum is: 252
+2021-02-13 15:59:04 - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\conftest.py", line 35, in pytest_runtest_call
+    __multicall__.execute()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 135, in execute
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 170, in pytest_runtest_call
+    raise e
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\runner.py", line 162, in pytest_runtest_call
+    item.runtest()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 1641, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 208, in _multicall
+    return outcome.get_result()
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 80, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\roxy.kvarman\pycharmprojects\skinnyties\venv\lib\site-packages\_pytest\python.py", line 183, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Tests\test_TieBarsPriceSumAndCompare.py", line 21, in test_tie_bars_price_size_sum_compare
+    H.assert_test(sum_price < self.price_to_compare,
+  File "C:\Users\roxy.kvarman\PycharmProjects\SkinnyTies\Utilities\Helper.py", line 6, in assert_test
+    assert condition, L.logging.error(fail_str)
+AssertionError: None
+2021-02-13 15:59:06 - INFO - Test 'Tests/test_TieBarsPriceSumAndCompare.py::Test_TieBarsPriceSumAndCompare' COMPLETED
